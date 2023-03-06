@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <form>
+            <div class="line">
+                <label for="fName">First name:</label>
+                <input type="text" name="fName" id="fName">
+            </div>
+            <div class="line">
+                <label for="lName">Last name:</label>
+                <input type="text" name="lName" id="lName">
+            </div>
+            <div class="line">
+                <label for="email">Your e-mail:</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="line">
+                <label for="year">Your year of birth:</label>
+                <input type="text" name="year" id="year">
+            </div>
+        </form>
+        <button id="submitButton">Submit</button>
+        <div class="user-info" id="list">
+            <ul>
+                <li>
+                    <p id="userName"></p>
+                </li>
+                <li>
+                    <p id="userEmail"></p>
+                </li>
+                <li>
+                    <p id="userAge"></p>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
