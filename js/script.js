@@ -1,7 +1,9 @@
 function getValue() {
     let now = new Date();
     let name = document.getElementById('fName').value.trim();
+    name = name[0].toUpperCase() + name.slice(1).toLowerCase();
     let lastName = document.getElementById('lName').value.trim();
+    lastName = lastName[0].toUpperCase() + lastName.slice(1).toLowerCase();
     let mail = document.getElementById('email').value.replaceAll(' ', '').toLowerCase();
     let year = document.getElementById('year').value.replaceAll(' ', '');
 
